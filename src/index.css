@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swa');
+
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Inter';
+
+  --color-primary: #094C3B;
+  --color-secondary: #FFE353;
+  --color-tetiary: #FFFFFF;
+  --color-gray: #828282;
+  --color-neutral: #F2F2F2;
+  --color-stroke: #E0E0E0;
+  --color-gray2: #BDBDBD;
+}
+
+button{
+    @apply cursor-pointer
+}
