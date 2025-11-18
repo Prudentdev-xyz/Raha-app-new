@@ -1,5 +1,5 @@
 import React from "react";
-import { CampaignCard, Campaigndata } from "../CampaignCard";
+import { CampaignCard, Campaigndata } from "../campaignCard";
 
 export const StartDonation = () => {
   return (

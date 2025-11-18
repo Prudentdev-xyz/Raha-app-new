@@ -2,7 +2,6 @@ import CompletedProjectCamera from "/CompletedProjectCamera.svg"
 import CompletedProjectHand from "/CompletedProjectHand.svg"
 
 import React from "react";
-import { CampaignCard } from "./CampaignCard";
 import { CompletedProjectCard, CompletedProjectdata } from "./CompletedProjectCard";
 
 export const CompletedProject = () => {
