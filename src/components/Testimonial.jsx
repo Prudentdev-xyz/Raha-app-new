@@ -1,6 +1,5 @@
 import React from "react";
 import { TestimonialCard, Testimonialdata } from "./TestimonialCard";
-import { Campaigndata } from "./CampaignCard";
 import arrowLeft from "/arrowLeft.svg";
 import arrowRight from "/arrowRight.svg";
 
@@ -17,13 +16,13 @@ export const Testimonial = () => {
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 py-10 md:py-25">
-        {Testimonialdata.map((Campaigndata) => (
+        {Testimonialdata.map((testimonialdata) => (
           <TestimonialCard
-            QuoteImg={Campaigndata.QuoteImg}
-            texts={Campaigndata.texts}
-            img={Campaigndata.img}
-            Name={Campaigndata.Name}
-            Work={Campaigndata.Work}
+            QuoteImg={testimonialdata.QuoteImg}
+            texts={testimonialdata.texts}
+            img={testimonialdata.img}
+            Name={testimonialdata.Name}
+            Work={testimonialdata.Work}
           />
         ))}
       </div>
