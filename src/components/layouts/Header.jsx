@@ -17,7 +17,7 @@ export const links = [
     text: "Donate",
   },
   {
-    link: "",
+    link: "/Fundraise",
     text: "Fundraise",
   },
   {

@@ -14,7 +14,7 @@ export const FooterLinks = [
         text: "Our Story",
     },
     {
-      link: "/Fundraise",
+      link: "/",
       text: "Fundraise",
     },
     {
