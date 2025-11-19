@@ -31,6 +31,7 @@ export const CharityService = () => {
             header={Servicedata.header}
             img={Servicedata.img}
             className={Servicedata.className}
+            HeaderChange={Servicedata?.HeaderChange}
           />
         ))}
       </div>
