@@ -63,7 +63,7 @@ export const Header = () => {
       </div>
 
       {Open && (
-        <div className="md:hidden bg-tetiary border-t border-gray-200 shadow-lg h-screen fixed">
+        <div className="md:hidden bg-tetiary border-t border-gray-200 shadow-lg h-screen z-10 w-full fixed">
           <ul className="py-4 flex flex-col items-center justify-center static">
             {links.map((link) => (
               <a href={link.link}>
