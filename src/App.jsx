@@ -6,6 +6,7 @@ import { AboutUs } from "./pages/AboutUs";
 import { Donate } from "./pages/Donate";
 import { Contact } from "lucide-react";
 import { ContactPage } from "./pages/ContactPage";
+import { Donate1 } from "./components/layouts/Donate1";
 
 function App() {
   return (
