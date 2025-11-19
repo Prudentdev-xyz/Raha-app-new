@@ -56,7 +56,7 @@ export const Footer = () => {
           brighter tomorrows and empower individuals and families to thrive.
         </p>
         <div className="pt-2 flex gap-5 flex-col md:flex-row items-center">
-            <a href="https://youtu.be/fEheBFAVtJU?si=stmN5D8NhN65QdRg"><WatchnowButton>Watch No</WatchnowButton></a>
+            <a href="https://youtu.be/fEheBFAVtJU?si=stmN5D8NhN65QdRg"><WatchnowButton>Watch Now</WatchnowButton></a>
             <a href="/Contact"><DonatenewButton>Contact us</DonatenewButton></a>
         </div>
         </div>
