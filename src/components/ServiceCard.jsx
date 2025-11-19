@@ -8,7 +8,7 @@ export const Servicedatas = [
     text: "Providing free health check-ups, medicine, and support for underserved populations.",
     img: img1,
     className:"bg-primary",
-    HeaderChange:"!text-white"
+    HeaderChange:"text-white"
 
   },
   {
