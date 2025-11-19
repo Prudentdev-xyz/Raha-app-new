@@ -7,7 +7,7 @@ export const Servicedatas = [
     header: "Health for All",
     text: "Providing free health check-ups, medicine, and support for underserved populations.",
     img: img1,
-    className:"bg-primary"
+    className:"bg-primary !header-tetiary"
 
   },
   {
