@@ -7,7 +7,7 @@ export const FundraisePage = () => {
         <h1>Fundraise</h1>
       </div>
       <div className="bg-primary flex items-center justify-center">
-        <h1 className="text-black">Make a difference today</h1>
+        <h1>Make a difference today</h1>
         <p>
           Join thousands of donors and organizations making an impact through
           Raha.
