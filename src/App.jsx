@@ -6,6 +6,7 @@ import { AboutUs } from "./pages/AboutUs";
 import { Donate } from "./pages/Donate";
 import { Contact } from "lucide-react";
 import { ContactPage } from "./pages/ContactPage";
+import { FundraisePage } from "./pages/FundraisePage";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/Donate" element={<Donate />} />
         <Route path="/Contact" element={<ContactPage />} />
+        <Route path="/Fundraise" element={<FundraisePage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
