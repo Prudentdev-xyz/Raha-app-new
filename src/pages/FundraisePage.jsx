@@ -56,7 +56,7 @@ export const FundraisePage = () => {
               <>
                 <input
                   type="text"
-                  placeholder="Firat Name"
+                  placeholder="First Name"
                   className="w-full p-3 border rounded-xl focus:ring-2 focus:ring-primary focus:outline-none"
                 />
 
