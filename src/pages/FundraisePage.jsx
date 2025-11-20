@@ -2,7 +2,7 @@ import React from "react";
 
 export const FundraisePage = () => {
   return (
-    <div className="flex p-20">
+    <div className="flex px-20">
       <div className="p-10">
         <h1>Fundraise</h1>
       </div>
