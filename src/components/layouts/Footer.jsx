@@ -14,7 +14,7 @@ export const FooterLinks = [
         text: "Our Story",
     },
     {
-      link: "/",
+      link: "/Fundraise",
       text: "Fundraise",
     },
     {
@@ -22,7 +22,7 @@ export const FooterLinks = [
       text: "Donate",
     },
     {
-      link: "/",
+      link: "/Fundraise",
       text: "Fundraise",
     },
     {
