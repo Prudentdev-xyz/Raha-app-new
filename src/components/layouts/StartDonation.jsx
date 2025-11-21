@@ -12,7 +12,7 @@ export const StartDonation = () => {
           Transparent Donations: See How You Make a Difference
         </p>
       </div>
-      <div className="flex md:flex-row flex-col gap-10 pt-10 items-center justify-center mx-20">
+      <div className="flex md:flex-row flex-col gap-10 pt-10 items-center justify-center mx-4">
         {Campaigndata.map((Campaigndata) => (
         <CampaignCard
         img={Campaigndata.img}
