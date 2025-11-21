@@ -39,16 +39,16 @@ const Faqs = [
 function FaqAccordium() {
   const [selectItem, setSelectedItem] = useState(0);
 
-  const toogleItem = (index) => {
+  const toggleItem = (index) => {
     setSelectedItem(selectItem === index ? null : index);
   };
 
   return (
     <div>
-      <div className="w-fit md:w-270 flex flex-col gap-2 md:gap-5">
+      <div className="w-fit md:w-full flex flex-col gap-2 md:gap-5">
         {Faqs.map((Faqs, index) => (
           <div
-            className={`transition-all duration-200 ease-in-out w-full md:w-3/4 ${
+            className={`transition-all duration-200 ease-in-out w-full md:w-full ${
               selectItem === index ? "bg-primary w-3/4" : "bg-white"
             }`}
           >
@@ -56,11 +56,11 @@ function FaqAccordium() {
               className={`w-full ${
                 selectItem === index ? "" : "border border-stroke"
               }`}
-              onClick={() => toogleItem(index)}
+              onClick={() => toggleItem(index)}
             >
               <div className="flex gap-2 items-center justify-between px-3 py-2">
                 <h1
-                  className={`font-medium text-sm md:text-2xl max-w-xl text-left p-1 md:p-3 ${
+                  className={`font-medium text-sm md:text-xl text-left p-1 md:p-3 ${
                     selectItem === index ? "text-white" : ""
                   }`}
                 >
@@ -78,7 +78,7 @@ function FaqAccordium() {
                   : "max-h-0 opacity-0 border-0"
               }`}
             >
-              <p className="font-regular text-xs md:text-lg max-w-xl md:max-w-3xl text-gray text-left md:py-1 px-3">
+              <p className="font-regular text-xs md:text-lg text-gray text-left md:py-1 px-3">
                 {Faqs.Answer}
               </p>
             </div>

@@ -31,7 +31,7 @@ export const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center max-w-screen-2 mx-3 md:mx-9 py-4">
+      <div className="flex justify-between items-center max-w-screen-2 py-4 px-9 top-0 fixed w-full bg-white z-20 ">
         <div className="h-12">
           <a href="/">
             <img src={logo} alt="logo" />
@@ -63,7 +63,7 @@ export const Header = () => {
       </div>
 
       {Open && (
-        <div className="md:hidden bg-tetiary border-t border-gray-200 shadow-lg h-screen z-10 w-full fixed">
+        <div className="md:hidden bg-tetiary border-t border-gray-200 py-4 shadow-lg h-screen z-10 w-full fixed">
           <ul className="py-4 flex flex-col items-center justify-center static">
             {links.map((link) => (
               <a href={link.link}>

@@ -49,17 +49,17 @@ export const CampaignCard = ({
 }) => {
 
   return (
-    <div className="border-white border-4 py-5 px-15 md:px-10 md:p-6 hover:shadow-lg hover:border-0 flex flex-col gap-4">
-      <img src={img} alt="campaign img" className="h-50 w-80 md:h-100 md:w-150 flex items-center justify-center mx-auto"/>
-      <h1 className="font-bold md:font-medium text-sm md:text-2xl items-center max-w-3xl md:max-w-sm">{header}</h1>
-      <p className="text-gray font-regular text-xs md:text-sm max-w-sm">{text}</p>
+    <div className="border-white border-4 py-5 px-10 md:px-6 md:p-6 w-full hover:shadow-lg hover:border-0 flex flex-col gap-4">
+      <img src={img} alt="campaign img" className=" w-full flex items-center justify-center mx-auto"/>
+      <h1 className="font-bold md:font-medium text-sm md:text-2xl items-center">{header}</h1>
+      <p className="text-gray font-regular text-xs md:text-sm m">{text}</p>
       <div>
       <p className="flex  flex-row gap-1">
         <span className="text-sm pb-1 md:text-xl font-bold">{number}</span>{" "} <p className={`font-light text-sm md:text-lg text-gray`}>{raisedNo}</p>
       </p>
-      <div className="flex relative">
-        <p className={` ${className} h-2 w-[230px] md:h-3.5 md:w-[490px]  bg-secondary/50  rounded-full relative`}></p>
-        <p className={` ${rangeClassName} h-2 w-[100px] md:h-3.5 md:w-[295.42px] bg-secondary rounded-full left absolute`}></p>
+      <div className="flex relative w-full">
+        <p className={` ${className} h-2 w-[230px] md:h-3.5 md:w-full bg-secondary/50  rounded-full relative`}></p>
+        <p className={` ${rangeClassName} h-2 w-[100px] md:h-3.5 md:w-2/6 bg-secondary rounded-full left absolute`}></p>
       </div>
       </div>
       <div className={`pt-1 md:pt-3 `}>

@@ -38,16 +38,16 @@ export const CompletedProjectCard = ({
   className,
 }) => {
   return (
-    <div className="bg-tetiary px-10 md:px-15 pt-3 pb-10">
+    <div className="bg-tetiary px-6 md:px-6 pt-3 pb-10">
       <img
         src={img}
         alt="CompletedProject"
-        className="h-50 py-2 md:h-100 w-500 flex items-center justify-center mx-auto"
+        className="h-50 py-2 md:h-full w-5/6 flex items-center justify-center mx-auto"
       />
-      <h1 className="font-medium mx-auto text-sm md:text-2xl max-w-5xl md:max-w-3xl text-black items-center">
+      <h1 className="font-medium mx-auto text-sm md:text-2xl text-black items-center">
         {header}
       </h1>
-      <p className="font-regular text-xs md:text-sm max-w-xl md:max-w-sm text-gray py-2 md:py-5">
+      <p className="font-regular text-xs md:text-sm text-gray py-2 md:py-5">
         {text}
       </p>
       <a href="/"><button
