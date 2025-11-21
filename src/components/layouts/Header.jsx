@@ -83,8 +83,6 @@ export const Header = () => {
           </ul>
         </div>
       )}
-
-      <div className="md:hidden h-16" />
     </>
   );
 };
