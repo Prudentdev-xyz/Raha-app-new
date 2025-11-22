@@ -45,7 +45,7 @@ export const FundraisePage = () => {
               }`}
               onClick={() => setAccountType("organization")}
             >
-              <p className="flex gap-1">
+              <p className="flex gap-1 px-3">
                 <Building2 /> Organization
               </p>
             </button>
