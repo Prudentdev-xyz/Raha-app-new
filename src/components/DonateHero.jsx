@@ -3,7 +3,7 @@ import React from "react";
 export const DonationHero = () => {
   return (
     <div>
-      <div className="p-20 md:p-40 bg-primary relative">
+      <div className="p-20 md:p-40 pt-40 md:pt-2 bg-primary relative">
         <h1 className="text-tetiary font-bold text-4xl md:text-8xl flex items-center justify-center text-center">
           Donations
         </h1>
