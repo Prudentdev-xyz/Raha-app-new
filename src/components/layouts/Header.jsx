@@ -31,7 +31,7 @@ export const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center max-w-screen-2 py-4 px-9 top-0 fixed w-full bg-white z-20 ">
+      <div className="flex justify-between items-center max-w-screen-2 py-4 px-9 top-0 fixed md:relative w-full bg-white z-20 ">
         <div className="h-12">
           <a href="/">
             <img src={logo} alt="logo" />
