@@ -7,7 +7,7 @@ import { DonatenewButton } from "../buttons/DonatenewButton";
 export const Hero = () => {
   return (
     <div className="relative items-center bg-cover bg-[url('/hero-bg.svg')]">
-      <div className="p-8 md:p-52">
+      <div className="p-8 md:p-52 pt-10">
         <div className="max-w-6xl mx-auto space-y-8">
           <h1 className="text-2xl md:text-8xl font-bold text-white text-center">
             Every Helping Hand, Every Heartfelt Change
