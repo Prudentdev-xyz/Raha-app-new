@@ -12,7 +12,7 @@ export const FundraisePage = () => {
 
   return (
     <div>
-      <div className="p-10 flex flex-col items-center justify-center bg-gray-50">
+      <div className="p-10 flex flex-col items-center justify-center bg-gray-50 pt-30 md:pt-2">
         <img
           src={logo}
           alt="logo"
