@@ -38,7 +38,7 @@ export const FundraisePage = () => {
             </button>
 
             <button
-              className={`flex-1 py-2 px-8 md:px-3 text-center font-medium transition-all ${
+              className={`flex-1 py-2 px-1 md:px-3 text-center font-medium transition-all ${
                 accountType === "organization"
                   ? "bg-primary text-white"
                   : "bg-gray-100"
