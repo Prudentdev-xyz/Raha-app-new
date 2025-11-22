@@ -22,7 +22,7 @@ export const FundraisePage = () => {
           {mode === "login" ? "Login to Raha" : "Sign up to Raha"}
         </h1>
 
-        <div className="bg-white p-4 md:p-8 rounded-2xl shadow-xl w-full max-w-sm md:max-w-md">
+        <div className="bg-white p-4 md:p-8 rounded-2xl shadow-xl max-w-sm md:max-w-md">
           <div className="flex mb-6 border rounded-xl overflow-hidden">
             <button
               className={`flex-1 py-2 px-8 text-center font-medium transition-all ${
@@ -45,7 +45,7 @@ export const FundraisePage = () => {
               }`}
               onClick={() => setAccountType("organization")}
             >
-              <p className="flex gap-1 px-3">
+              <p className="flex gap-1 px-10">
                 <Building2 /> Organization
               </p>
             </button>
